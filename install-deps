@@ -169,7 +169,7 @@ elif [[ "$(uname)" == 'Linux' ]]; then
             # Install from source after installing git and build-essential
             install_openblas || true
         else
-            sudo apt-get install -y libopenblas-dev liblapack-dev
+            sudo apt-get install -y libblas-dev liblapack-dev
         fi
 
         if [[ $ubuntu_major_version -lt '15' ]]; then

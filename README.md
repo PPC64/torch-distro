@@ -56,7 +56,7 @@ Tested on Ubuntu 14.04
 Please proceed as following to get all the file appropriately:
 
 ```
-git clone https://github.com/PPC64/torch-distro.git --recursive
+git clone https://github.com/cswords/torch-distro.git --recursive
 cd torch-distro
 git checkout <RELEASE_NAME>
 ```
